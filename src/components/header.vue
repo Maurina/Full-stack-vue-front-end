@@ -27,29 +27,22 @@
         </v-list-item>
         <v-list-item>
           <v-list-item-title> 
-            <router-link to="/daily" tag="li" active-class="active">
-              <a class= "black--text">Daily</a>
+            <router-link to="/store" tag="li" active-class="active">
+              <a class= "black--text">Store</a>
             </router-link>
           </v-list-item-title>
         </v-list-item>
           <v-list-item>
           <v-list-item-title> 
-            <router-link to="/data" tag="li" active-class="active">
-              <a class= "black--text">Data</a>
+            <router-link to="/rest" tag="li" active-class="active">
+              <a class= "black--text">Rest API</a>
             </router-link>
           </v-list-item-title>
         </v-list-item>
              <v-list-item>
           <v-list-item-title> 
-            <router-link to="/favorites" tag="li" active-class="active">
-              <a class= "black--text">Favorites</a>
-            </router-link>
-          </v-list-item-title>
-        </v-list-item>
-         <v-list-item>
-          <v-list-item-title>
-            <router-link to="/signIn" tag="li" active-class="active" exact>
-              <a class= "black--text">Sign In</a>
+            <router-link to="/graphql" tag="li" active-class="active">
+              <a class= "black--text">GraphQL</a>
             </router-link>
           </v-list-item-title>
         </v-list-item>

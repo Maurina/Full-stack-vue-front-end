@@ -2,7 +2,7 @@
   <div>
     <div class="frame">
      
-    <app-cardEdit></app-cardEdit>
+   
     </div><!--frame-->
     <app-footer></app-footer>
   </div>
@@ -11,12 +11,11 @@
 <script>
 
 import footer from '../components/footer'
-import cardEdit from '../components/cardEdit'
 
 export default {
   name: 'App',
   components: {
-    'app-cardEdit' : cardEdit,
+  
     'app-footer' : footer,
    
   },
