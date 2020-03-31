@@ -23,7 +23,7 @@
                 color="black white--text"
                 rounded
                 type="submit"
-                @click="onSubmit(formData)"
+                @click="updateCard()"
             >
             Update
             </v-btn>
@@ -32,7 +32,7 @@
                 color="red white--text"
                 rounded
                 type="submit"
-                @click="onSubmit(formData)"
+                @click="deleteCard()"
             >
             Delete
             </v-btn>
