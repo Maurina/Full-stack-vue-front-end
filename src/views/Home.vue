@@ -2,7 +2,7 @@
   <div>
     <div class="frame">
      
-      <app-earth></app-earth>
+      <app-cards></app-earth>
     </div><!--frame-->
     <app-footer></app-footer>
   </div>
@@ -10,14 +10,14 @@
 
 <script>
 
-import earth from '../components/earth'
+import cards from '../components/cardsGraphqlDisplay'
 import footer from '../components/footer'
 
 export default {
   name: 'App',
   components: {
   
-    'app-earth' : earth,
+    'app-cards' : cards,
     'app-footer' : footer,
    
   },

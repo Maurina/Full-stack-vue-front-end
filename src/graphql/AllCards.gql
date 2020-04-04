@@ -1,0 +1,10 @@
+query AllCards ($searchString: String){
+    Cards (searchString: $searchString){
+        title
+        description
+        source
+        keywords
+        image
+        
+    }
+}
