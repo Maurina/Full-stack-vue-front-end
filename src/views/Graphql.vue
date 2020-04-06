@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="frame">
-     
+     <app-admin></app-admin>
    
     </div><!--frame-->
     <app-footer></app-footer>
@@ -11,11 +11,12 @@
 <script>
 
 import footer from '../components/footer'
+import admin from '../components/Admin'
 
 export default {
   name: 'App',
   components: {
-  
+    'app-admin': admin,
     'app-footer' : footer,
    
   },

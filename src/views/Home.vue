@@ -2,7 +2,7 @@
   <div>
     <div class="frame">
      
-      <app-cards></app-earth>
+      <app-cards></app-cards>
     </div><!--frame-->
     <app-footer></app-footer>
   </div>
@@ -14,10 +14,9 @@ import cards from '../components/cardsGraphqlDisplay'
 import footer from '../components/footer'
 
 export default {
-  name: 'App',
+  name: 'home',
   components: {
-  
-    'app-cards' : cards,
+    'app-cards': cards,
     'app-footer' : footer,
    
   },

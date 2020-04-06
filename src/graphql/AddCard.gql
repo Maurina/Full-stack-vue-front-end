@@ -1,0 +1,11 @@
+mutation AddCourse ($title: String!, $description: String, $source: String, $keywords: String[], $image: String) {
+  createCourse (
+    title: $title,
+    description: $description,
+    source: $source,
+    keywords: $keywords,
+    image: $image
+  ) {
+      id
+  }
+}
