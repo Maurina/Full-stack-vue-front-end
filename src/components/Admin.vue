@@ -16,7 +16,7 @@
       <v-container>
         <v-row>
           <v-col cols="12" md="12">
-            <v-text-field v-model="title" label="Title" required filled></v-text-field>    <v-text-field v-model="name" label="Title" required filled></v-text-field>
+            <v-text-field v-model="title" label="Title" required filled></v-text-field>    <v-text-field v-model="title" label="Title" required filled></v-text-field>
           </v-col>
         </v-row>
         <v-row>
